@@ -1,0 +1,88 @@
+.myCard {
+  box-shadow: 0 4px 10px 2px rgba(0,0,0,0.2);
+  transition: 0.6s;
+  width: 575px;
+  height: 190px;
+  background-image: radial-gradient(circle at right, rgba(123, 96, 119, 0.12), transparent);
+}
+
+.myCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.myImg {
+  width: 390px;
+  height: 190px;
+  background: url(./card_background.jpg);
+}
+
+
+.myAvatar {
+  background: url(./cat.jpg);
+  background-size: 43px;
+  width: 40px;
+  height: 31px;
+
+  order: 1;
+}
+
+.myDetails {
+  display: flex;
+  background-color: transparent;
+  position: relative;
+  background-color: #fff;
+  width: 125px;
+  height: 30px;
+  position: relative;
+  margin-left: 260px;
+  margin-top: -33px;
+}
+
+.myText {
+  order: 2;
+  width: 85px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.myLogo {
+  margin-top: -166px;
+  margin-left: 4px;
+  background-image: url(./logo.jpg);
+  background-size: 35px;
+  position: absolute;
+  padding: 2px;
+  width: 32px;
+  height: 27px;
+  background-color: transparent;
+}
+
+.myContainer {
+  display: flex;
+  position: relative;
+  margin-left: 395px;
+  margin-top: -140px;
+  width: 207px;
+  flex-direction: column;
+}
+
+.myHeading {
+  order: 1;
+  font-family: 'Courgette', cursive;
+}
+
+.myParagraph {
+  order: 2;
+  font-family: 'Courgette', cursive;
+}
+
+.myWatermark {
+  order:3;
+  font-family: 'Courgette', cursive;
+  color: #81A684;
+}
+
+
+.mySpace {
+  padding: 20px;
+}
